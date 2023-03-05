@@ -1,0 +1,35 @@
+bookmarks = {
+	bookmark = {
+		name = "FRIEDAREIGN_NAME"
+		desc = "FRIEDAREIGN_DESC"
+		date = 842.1.1.12
+		picture = "GFX_select_date_842"
+		default_country = "ELD"
+	
+		ELD = {
+			history = ELD_FRIEDAREIGN_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		MAR = {
+			history = MAR_FRIEDAREIGN_DESC
+			ideology = fascism
+			ideas={
+			}
+			focuses = {
+			}
+		}
+
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

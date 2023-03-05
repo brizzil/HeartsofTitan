@@ -1,0 +1,35 @@
+bookmarks = {
+	bookmark = {
+		name = "RUMBLING_NAME"
+		desc = "RUMBLING_DESC"
+		date = 854.1.1.12
+		picture = "GFX_select_date_854"
+		default_country = "ELD"
+	
+		ELD = {
+			history = ELD_RUMBLING_DESC
+			ideology = fascism
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		MAR = {
+			history = MAR_RUMBLING_DESC
+			ideology = fascism
+			ideas={
+			}
+			focuses = {
+			}
+		}
+
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
