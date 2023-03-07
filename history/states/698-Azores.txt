@@ -1,0 +1,21 @@
+state={
+	id=698
+	name="STATE_698"
+	manpower = 212012
+	
+	state_category = small_island
+	
+	history={
+		owner = MAR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MAR
+	}
+	
+	provinces={
+		1751 
+	}
+
+	local_supplies=0.0 
+}

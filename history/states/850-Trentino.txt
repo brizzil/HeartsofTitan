@@ -1,0 +1,21 @@
+
+state = {
+	id = 850
+	name = "STATE_850" # Trentino
+	manpower = 370739 # South Tyrol state was 641650 before split (669k according to sources)
+	
+	state_category = town
+
+	history = {
+		owner = MAR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		6631 9598 
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,17 @@
+
+state = {
+	id = 849
+	name = "STATE_849"
+	manpower = 2642000 
+	state_category = city
+	history = {
+		owner = MAR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		883	6843 6939 6980 6979 9784 11837 11998
+	}
+	local_supplies = 0.000
+}
