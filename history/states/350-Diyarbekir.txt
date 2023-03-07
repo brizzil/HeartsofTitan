@@ -1,0 +1,20 @@
+
+state={
+	id=350
+	name="STATE_350"
+
+	history={
+		owner = MAR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		4512 9823 11759 11871 12387 12416 
+	}
+	manpower=571935
+	state_category=town
+
+	local_supplies=0.0 
+}

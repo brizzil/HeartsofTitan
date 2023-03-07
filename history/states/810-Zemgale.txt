@@ -1,0 +1,19 @@
+
+state={
+	id=810
+	name="STATE_810"
+
+	history={
+		owner = MAR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		222 310 319 341 3298 6459 7482 9275 11222 
+	}
+	manpower=600250
+	buildings_max_level_factor=1.000
+	state_category=town
+}

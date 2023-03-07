@@ -1,0 +1,20 @@
+state={
+	id=656
+	name="STATE_656"
+	manpower = 80000
+	
+	state_category = rural
+	
+	history={
+		owner = MAR
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	provinces={
+		8085
+	}
+
+	local_supplies=0.0 
+}

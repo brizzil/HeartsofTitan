@@ -1,0 +1,20 @@
+state={
+	id=96
+	name="STATE_96"
+	manpower = 726000
+	
+	state_category = rural
+	
+	history={
+		owner = MAR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		233 277 358 406 6340 9341 11391 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,19 @@
+state={
+	id=85
+	name="STATE_85"
+	manpower = 366730
+	
+	state_category = city
+	history={
+		owner = MAR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		362
+	}
+
+	local_supplies=0.0 
+}
