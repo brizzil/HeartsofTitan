@@ -9,5 +9,5 @@ tags={
 	"Ideologies"
 }
 name="Hearts of Titan"
-supported_version="1.12.10"
+supported_version="1.12.14"
 path="mod/HeartsOfTitan"
