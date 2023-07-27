@@ -1,0 +1,7 @@
+dynamic_modifier_name = {
+	icon = GFX_idea_unknown
+	enable = { always = yes }
+
+
+	operative_slot = survey_corps_size 
+}

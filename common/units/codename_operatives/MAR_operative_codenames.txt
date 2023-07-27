@@ -1,0 +1,37 @@
+﻿MAR_OPERATIVE_CODENAME_HISTORICAL = {
+	name = MAR_OPERATIVE_CODENAME_HISTORICAL
+
+	for_countries = { MAR }
+
+	type = codename
+
+	fallback_name = "Agent %d"
+
+	unique = {
+		"Maximilian"
+                "Evelyn"
+                "Roderick"
+                "Amelia"
+                "Victor"
+                "Isolde"
+                "Adrian"
+                "Emilia"
+                "Cedric"
+                "Isabella"
+                "Sebastian"
+                "Wilhelmina"
+                "Gregory"
+                "Natalia"
+                "Fabian"
+                "Miranda"
+                "Julius"
+                "Cassandra"
+                "Dominic"
+                "Rosalind"
+                "Phillip"
+                "Gwendolyn"
+                "Roland"
+                "Valentina"
+                "Damian"
+	}
+}

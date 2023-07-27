@@ -1,0 +1,37 @@
+﻿MID_OPERATIVE_CODENAME_HISTORICAL = {
+	name = MID_OPERATIVE_CODENAME_HISTORICAL
+
+	for_countries = { MID }
+
+	type = codename
+
+	fallback_name = "Agent %d"
+
+	unique = {
+		"Zahra"
+                "Amir"
+                "Layla"
+                "Ahmad"
+                "Aisha"
+                "Karim"
+                "Nadia"
+                "Rashid"
+                "Fatima"
+                "Hassan"
+                "Samira"
+                "Tariq"
+                "Sana"
+                "Youssef"
+                "Mariam"
+                "Nabil"
+                "Leila"
+                "Khalid"
+                "Salma"
+                "Mansour"
+                "Jasmine"
+                "Rami"
+                "Sara"
+                "Yasin"
+                "Dalia"
+	}
+}

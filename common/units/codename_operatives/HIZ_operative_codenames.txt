@@ -1,0 +1,37 @@
+﻿HIZ_OPERATIVE_CODENAME_HISTORICAL = {
+	name = HIZ_OPERATIVE_CODENAME_HISTORICAL
+
+	for_countries = { HIZ }
+
+	type = codename
+
+	fallback_name = "Agent %d"
+
+	unique = {
+		"Kasumi"
+                "Hiroshi"
+                "Ayako"
+                "Shinjiro"
+                "Sakura"
+                "Kenji"
+                "Yumi"
+                "Daichi"
+                "Rina"
+                "Haruki"
+                "Natsuki"
+                "Kazuki"
+                "Emi"
+                "Kaito"
+                "Aya"
+                "Tatsuya"
+                "Mei"
+                "Ryota"
+                "Natsumi"
+                "Yuto"
+                "Hana"
+                "Ryo"
+                "Sora"
+                "Yuki"
+                "Satoshi"
+	}
+}

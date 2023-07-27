@@ -1,0 +1,17 @@
+leader_traits = {
+		operative_titan_killer = {
+		type = operative
+		trait_type = basic_trait
+
+		new_commander_weight = { base = 0 }
+
+		cost = 600
+		gain_xp_leader = {
+			operative_leader_mission = diplomatic_pressure
+		}
+
+		modifier = {
+			operation_rescue_operative_risk = -0.35
+		}
+	}
+}

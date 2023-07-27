@@ -1,0 +1,21 @@
+
+state={
+	id=765
+	name="STATE_765"
+	manpower = 51600
+	state_category = pastoral
+
+	history={
+		add_core_of = MAR
+		owner = MAR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		8051
+	}
+
+	local_supplies=0.0 
+}

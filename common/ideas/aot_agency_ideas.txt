@@ -1,0 +1,8 @@
+ideas = {
+    country = {
+        survey_corps = {
+        	modifier = {
+        	}
+        }
+    }
+}

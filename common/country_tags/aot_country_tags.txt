@@ -1,2 +1,6 @@
 MAR	= "countries/Marley.txt"
 ELD = "countries/Eldia.txt"
+MID = "countries/Middle East.txt"
+HIZ = "countries/Hizuru.txt"
+TTZ = "countries/Titan Zone.txt"
+WST = "countries/Westland.txt"

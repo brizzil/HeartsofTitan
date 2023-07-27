@@ -1,0 +1,12 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            ELD = {
+                country_event = { 
+                    id = setup.1
+                    days = 30
+                }
+            }
+        }
+    }
+}

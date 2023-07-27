@@ -1,0 +1,37 @@
+﻿ELD_OPERATIVE_CODENAME_HISTORICAL = {
+	name = ELD_OPERATIVE_CODENAME_HISTORICAL
+
+	for_countries = { ELD }
+
+	type = codename
+
+	fallback_name = "Agent %d"
+
+	unique = {
+		"Elric"
+                "Lysander"
+                "Astrid"
+                "Leonhart"
+                "Arwen"
+                "Elysia"
+                "Orion"
+                "Seraphina"
+                "Eamon"
+                "Aurelia"
+                "Lyra"
+                "Evander"
+                "Serafina"
+                "Lucien"
+                "Marcella"
+                "Altair"
+                "Corvus"
+                "Elysse"
+                "Alistair"
+                "Arista"
+                "Lucinda"
+                "Ignatius"
+                "Seraphine"
+                "Rhiannon"
+                "Valeria"
+	}
+}

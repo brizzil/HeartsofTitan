@@ -11,9 +11,20 @@ set_politics = {
 	elections_allowed = no
 }
 
+
 set_popularities = {
 	democratic = 10
 	fascism = 10
 	communism = 0
 	neutrality = 80
 }
+
+
+create_intelligence_agency = {
+    name = "Survey Corps"
+    icon = GFX_intelligence_agency_logo_agency
+}
+
+add_dynamic_modifier = { modifier = survey_corps }
+add_ideas = survey_corps
+

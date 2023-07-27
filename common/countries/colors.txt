@@ -875,6 +875,11 @@ TTS = {
 	color = rgb { 230 230 0 }
 	color_ui = rgb { 179 179 0 }
 }
+
+
+
+##########
+
 MAR = {
 	color = rgb { 179 91 75 }
 	color_ui = rgb { 179 91 75 }
@@ -882,4 +887,20 @@ MAR = {
 ELD = {
 	color = rgb { 255 113 0 }
 	color_ui = rgb { 255 113 0 }
+}
+MID = {
+	color = rgb { 128 0 128 }
+	color_ui = rgb { 128 0 128 }
+}
+HIZ = {
+	color = rgb { 246 190 0 }
+	color_ui = rgb { 246 190 0 }
+}
+TTZ = {
+	color = rgb { 136 8 8 }
+	color_ui = rgb { 136 8 8 }
+}
+WST = {
+	color = rgb { 240 248 255 }
+	color_ui = rgb { 240 248 255 }
 }

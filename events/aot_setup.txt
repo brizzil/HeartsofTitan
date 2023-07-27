@@ -1,0 +1,26 @@
+add_namespace = setup
+
+country_event = {
+	id = setup.1
+	hidden = yes
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		ELD = { 
+			set_variable = {
+			    var = survey_corps_size
+			    value = 2
+			}
+			create_operative_leader = {
+				name = "Erwin Rommel"
+				GFX = GFX_portrait_jacques_duclos
+				traits = { operative_natural_orator operative_titan_killer }
+				bypass_recruitment = yes
+				nationalities = { ELD }
+			}
+		}
+	}
+
+}

@@ -10,4 +10,4 @@ tags={
 }
 name="Hearts of Titan"
 supported_version="1.12.10"
-path="HeartsOfTitan"
+path="mod/HeartsOfTitan"
