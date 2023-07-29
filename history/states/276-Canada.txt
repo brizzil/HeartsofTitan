@@ -9,19 +9,8 @@ state={
 	history={
 		owner = WST
 		buildings = {
-			infrastructure = 4 #was: 7
-			arms_factory = 2
-			industrial_complex = 4
-			 
+			infrastructure = 1
 		}
-		add_core_of = CAN
-		victory_points = {
-			3778 20 
-		}
-		victory_points = {
-			3775 10
-		}
-
 	}
 
 	provinces={

@@ -9,21 +9,8 @@ state=
 	{
 		owner = HIZ
 		buildings = {
-			infrastructure = 3 #was: 5
-			arms_factory = 1
-			industrial_complex = 3
-			 
-			10265 = {
-				naval_base = 5
-			}
+			infrastructure = 1
 		}
-		victory_points = {
-			10265 15 
-		}
-		victory_points = {
-			1221 1 
-		}
-		add_core_of = PHI
 	}
 
 	provinces={

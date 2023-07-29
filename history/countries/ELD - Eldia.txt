@@ -25,6 +25,5 @@ create_intelligence_agency = {
     icon = GFX_intelligence_agency_logo_agency
 }
 
-add_dynamic_modifier = { modifier = survey_corps }
 add_ideas = survey_corps
 

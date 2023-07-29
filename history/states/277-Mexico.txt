@@ -13,17 +13,7 @@ state={
 	history={
 		owner = WST
 		buildings = {
-			infrastructure = 3 #was: 5
-			arms_factory = 2
-			industrial_complex = 4
-			 
-		}
-		add_core_of = MEX
-		victory_points = {
-			1965 25
-		}
-		victory_points = {
-			2008 10
+			infrastructure = 1
 		}
 	}
 

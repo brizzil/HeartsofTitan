@@ -10,33 +10,8 @@ state={
 
 	history={
 		owner = HIZ
-		add_core_of = JAP
 		buildings = {
-			infrastructure = 4 #was: 7
-			 
-			dockyard = 4
-			arms_factory = 1
-			industrial_complex = 2
-			9950 = {
-				naval_base = 6
-
-			}
-
-		}
-		victory_points = {
-			1025 10 
-		}
-		victory_points = {
-			4102 15 
-		}
-		victory_points = {
-			9950 30
-		}
-		1939.1.1 = {
-			buildings = {
-				dockyard = 4
-				industrial_complex = 3
-			}
+			infrastructure = 1
 		}
 
 	}
