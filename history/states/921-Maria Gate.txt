@@ -5,9 +5,12 @@ state={
 		13277 13278 13279 13280
 	}
 	history={
+		owner = ELD
 		victory_points = {
 			5128 1 
 		}
+		set_demilitarized_zone = yes
+	
 	}
 	manpower=1
 	state_category = wasteland

@@ -4,6 +4,9 @@ state={
 	provinces={
 		11015 
 	}
+	history = {
+		owner = TTZ
+	}
 	state_category = wasteland
 	manpower=1
 	buildings_max_level_factor=1.000

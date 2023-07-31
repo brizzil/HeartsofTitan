@@ -24,3 +24,23 @@ country_event = {
 	}
 
 }
+
+country_event = {
+	id = setup.2
+	hidden = yes
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		TTZ = { 
+			set_variable = {
+			    var = titan_numbers
+			    value = 100
+			}
+
+		}
+	}
+
+}
+

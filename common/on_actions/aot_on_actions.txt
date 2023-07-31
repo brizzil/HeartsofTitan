@@ -6,6 +6,13 @@ on_actions = {
                     id = setup.1
                     days = 30
                 }
+                change_tag_from = TTZ
+            }
+            TTZ = {
+                country_event = { 
+                    id = setup.2
+                    days = 2
+                }
             }
         }
     }

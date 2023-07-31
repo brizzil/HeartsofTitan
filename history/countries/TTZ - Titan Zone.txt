@@ -1,1 +1,1 @@
-﻿capital = 282
+﻿capital = 910
