@@ -175,4 +175,16 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4391;1703;impassable;-1;-1;-1;-1;-1;;pamir mountains
 4391;12526;impassable;-1;-1;-1;-1;-1;;pamir mountains
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
+13257;10993;impassable;-1;-1;-1;-1;-1;;mariaExternal
+13257;8180;impassable;-1;-1;-1;-1;-1;;mariaExternal
+13257;11015;impassable;-1;-1;-1;-1;-1;;mariaExternal
+13257;5128;impassable;-1;-1;-1;-1;-1;;mariaExternal
+13257;13262;impassable;-1;-1;-1;-1;-1;;mariaInternal
+13257;13272;impassable;-1;-1;-1;-1;-1;;mariaInternal
+13257;13271;impassable;-1;-1;-1;-1;-1;;mariaInternal
+13257;13270;impassable;-1;-1;-1;-1;-1;;mariaInternal
+13257;13273;impassable;-1;-1;-1;-1;-1;;mariaGates
+13257;13274;impassable;-1;-1;-1;-1;-1;;mariaGates
+13257;13275;impassable;-1;-1;-1;-1;-1;;mariaGates
+13257;13276;impassable;-1;-1;-1;-1;-1;;mariaGates
 -1;-1;;-1;-1;-1;-1;-1;-1

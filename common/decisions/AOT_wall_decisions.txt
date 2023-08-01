@@ -1,0 +1,31 @@
+walls_category = {
+    wall_maria_open = {
+    	available = {
+			NOT = { has_country_flag = ELD_maria_wall_open }
+		}
+		visible = {
+			NOT = { has_country_flag = ELD_maria_wall_open }
+		}
+		complete_effect = {
+			set_country_flag = ELD_maria_wall_open
+			921 = {
+				set_demilitarized_zone = no
+			}
+		}
+    }
+    wall_maria_close = {
+    	available = {
+			has_country_flag = ELD_maria_wall_open
+		}
+		visible = {
+			has_country_flag = ELD_maria_wall_open
+		}
+		complete_effect = {
+			clr_country_flag = ELD_maria_wall_open
+			921 = {
+				set_demilitarized_zone = yes
+			}
+		}
+    	
+    }
+}
