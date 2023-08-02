@@ -1,0 +1,230 @@
+focus_tree = {
+	id = marley_focus
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = mar
+		}
+	}
+	#New Warrior Batch
+	focus = {
+		id = mar_new_warrior_batch
+		icon = GFX_goal_unknown
+		x = 2
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Paradis Mission
+	focus = {
+		id = mar_paradis_mission
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = mar_new_warrior_batch  }
+	}
+
+	#Consider the World
+	focus = {
+		id = mar_consider_the_world
+		icon = GFX_goal_unknown
+		x = 9
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Tybur's Hand
+	focus = {
+		id = mar_tyburshand
+		icon = GFX_goal_unknown
+		x = 6
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = mar_consider_the_world  }
+	}
+
+	#Middle Eastern Dreams
+	focus = {
+		id = mar_middle_eastern_dreams
+		icon = GFX_goal_unknown
+		x = 8
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = mar_consider_the_world  }
+	}
+
+	#Founder's War
+	focus = {
+		id = mar_founderswar
+		icon = GFX_goal_unknown
+		x = 3
+		y = 3
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = mar_paradis_mission  focus = mar_war_hammer_conscription  } prerequisite = { focus = mar_magathsquest  }
+	}
+
+	#Hizuru's Mind
+	focus = {
+		id = mar_hizurusmind
+		icon = GFX_goal_unknown
+		x = 12
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = mar_consider_the_world  }
+	}
+
+	#The Eldian Question
+	focus = {
+		id = mar_the_eldian_question
+		icon = GFX_goal_unknown
+		x = 10
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = mar_consider_the_world  }
+	}
+
+	#War Hammer Conscription
+	focus = {
+		id = mar_war_hammer_conscription
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = mar_tyburshand  }
+	}
+
+	#Hizuru Conscription
+	focus = {
+		id = mar_hizuru_conscription
+		icon = GFX_goal_unknown
+		x = 11
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = mar_the_eldian_question  } prerequisite = { focus = mar_hizurusmind  }
+	}
+
+	#Middle Eastern Conscription
+	focus = {
+		id = mar_middle_eastern_conscription
+		icon = GFX_goal_unknown
+		x = 9
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = mar_middle_eastern_dreams  } prerequisite = { focus = mar_the_eldian_question  }
+	}
+
+	#Eldian Reproduction Camps
+	focus = {
+		id = mar_eldian_reproduction_camps
+		icon = GFX_goal_unknown
+		x = 10
+		y = 3
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = mar_the_eldian_question  }
+	}
+
+	#Ackerman Search
+	focus = {
+		id = mar_ackerman_search
+		icon = GFX_goal_unknown
+		x = 13
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = mar_hizurusmind  }
+	}
+
+	#Tybur's Influence
+	focus = {
+		id = mar_tybursinfluence
+		icon = GFX_goal_unknown
+		x = 6
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = mar_tyburshand  }
+	}
+
+	#Titanology investments
+	focus = {
+		id = mar_titanology_investments
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = mar_new_warrior_batch  }
+	}
+
+	#Magath's Quest
+	focus = {
+		id = mar_magathsquest
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = mar_titanology_investments  }
+	}
+
+	#Anti-titan Sabotage
+	focus = {
+		id = mar_antititan_sabotage
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = mar_titanology_investments  }
+	}
+
+}

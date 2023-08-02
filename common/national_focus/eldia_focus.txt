@@ -1,0 +1,742 @@
+focus_tree = {
+	id = eldia_focus
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = eld
+		}
+	}
+	#Stabilize the population
+	focus = {
+		id = eld_stabilize_the_population
+		icon = GFX_goal_unknown
+		x = 21
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_overcome_the_vow  focus = eld_kennyscoup  }
+	}
+
+	#Failed King
+	focus = {
+		id = eld_failed_king
+		icon = GFX_goal_unknown
+		x = 25
+		y = 6
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_kennyscoup  }
+	}
+
+	#Invest in church
+	focus = {
+		id = eld_invest_in_church
+		icon = GFX_goal_unknown
+		x = 25
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_kingspath1  }
+	}
+
+	#king's path 1
+	focus = {
+		id = eld_kingspath1
+		icon = GFX_goal_unknown
+		x = 26
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = eld_friedaspath  } mutually_exclusive = { focus = eld_survey_corps_path  }
+	}
+
+	#survey corps path
+	focus = {
+		id = eld_survey_corps_path
+		icon = GFX_goal_unknown
+		x = 16
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = eld_kingspath1  } mutually_exclusive = { focus = eld_friedaspath  }
+	}
+
+	#hire kenny
+	focus = {
+		id = eld_hire_kenny
+		icon = GFX_goal_unknown
+		x = 27
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_kingspath1  }
+	}
+
+	#find historia
+	focus = {
+		id = eld_find_historia
+		icon = GFX_goal_unknown
+		x = 26
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_special_underground_corps  } prerequisite = { focus = eld_investigate_the_survey_corps  } prerequisite = { focus = eld_royal_garrison  }
+	}
+
+	#restore the founder
+	focus = {
+		id = eld_restore_the_founder
+		icon = GFX_goal_unknown
+		x = 26
+		y = 7
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_find_historia  focus = eld_failed_king  }
+	}
+
+	#steal marley tech
+	focus = {
+		id = eld_steal_marley_tech
+		icon = GFX_goal_unknown
+		x = 20
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_prepare_for_the_invasion  }
+	}
+
+	#steal other titans
+	focus = {
+		id = eld_steal_other_titans
+		icon = GFX_goal_unknown
+		x = 22
+		y = 9
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_prepare_for_the_invasion  }
+	}
+
+	#prepare for the invasion
+	focus = {
+		id = eld_prepare_for_the_invasion
+		icon = GFX_goal_unknown
+		x = 21
+		y = 8
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_restore_the_founder  focus = eld_the_basement  }
+	}
+
+	#destroy shinganshina
+	focus = {
+		id = eld_destroy_shinganshina
+		icon = GFX_goal_unknown
+		x = 28
+		y = 9
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_disband_survey_corps  }
+	}
+
+	#Marley's Founder
+	focus = {
+		id = eld_marleysfounder
+		icon = GFX_goal_unknown
+		x = 28
+		y = 10
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_destroy_shinganshina  }
+		mutually_exclusive = { focus = eld_tyburspawn  }
+	}
+
+	#Tybur's Pawn
+	focus = {
+		id = eld_tyburspawn
+		icon = GFX_goal_unknown
+		x = 24
+		y = 10
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_royal_survey_corps  } prerequisite = { focus = eld_prepare_for_the_invasion  }
+		mutually_exclusive = { focus = eld_marleysfounder  }
+	}
+
+	#Disband Survey Corps
+	focus = {
+		id = eld_disband_survey_corps
+		icon = GFX_goal_unknown
+		x = 27
+		y = 8
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_restore_the_founder  }
+		mutually_exclusive = { focus = eld_royal_survey_corps  }
+	}
+
+	#Royal Survey Corps
+	focus = {
+		id = eld_royal_survey_corps
+		icon = GFX_goal_unknown
+		x = 25
+		y = 8
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_restore_the_founder  }
+		mutually_exclusive = { focus = eld_disband_survey_corps  }
+	}
+
+	#Hange's Idea
+	focus = {
+		id = eld_hangesidea
+		icon = GFX_goal_unknown
+		x = 17
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_survey_corps_path  }
+	}
+
+	#Develop Titanology
+	focus = {
+		id = eld_develop_titanology
+		icon = GFX_goal_unknown
+		x = 18
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_hangesidea  }
+	}
+
+	#Trost Gamble
+	focus = {
+		id = eld_trost_gamble
+		icon = GFX_focus_AST_never_gallipoli
+		x = 15
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_survey_corps_path  }
+	}
+
+	#Eren's Hardening
+	focus = {
+		id = eld_erenshardening
+		icon = GFX_focus_attack_mexico
+		x = 15
+		y = 3
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_female_titan_gamble  } prerequisite = { focus = eld_ymirsrole  }
+	}
+
+	#The Basement
+	focus = {
+		id = eld_the_basement
+		icon = GFX_goal_unknown
+		x = 16
+		y = 7
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_the_last_wall_expedition  focus = eld_retake_the_walls  }
+		bypass = {
+			has_completed_focus = eld_overcome_the_vow
+		}
+	}
+
+	#Azumabito Alliance
+	focus = {
+		id = eld_azumabito_alliance
+		icon = GFX_goal_unknown
+		x = 20
+		y = 10
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_steal_marley_tech  }
+	}
+
+	#Eren's Vision
+	focus = {
+		id = eld_erensvision
+		icon = GFX_goal_unknown
+		x = 14
+		y = 8
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_the_basement  }
+		mutually_exclusive = { focus = eld_arminsvision  } mutually_exclusive = { focus = eld_friedasvision  }
+	}
+
+	#Armin's Vision
+	focus = {
+		id = eld_arminsvision
+		icon = GFX_goal_unknown
+		x = 16
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_the_basement  }
+		mutually_exclusive = { focus = eld_erensvision  } mutually_exclusive = { focus = eld_friedasvision  }
+	}
+
+	#Expand Industrial City
+	focus = {
+		id = eld_expand_industrial_city
+		icon = GFX_goal_unknown
+		x = 10
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = eld_boost_eldian_economy  }
+	}
+
+	#Retake the Walls
+	focus = {
+		id = eld_retake_the_walls
+		icon = GFX_goal_unknown
+		x = 18
+		y = 6
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_overcome_the_vow  focus = eld_friedasdeath  }
+	}
+
+	#Overcome The Vow
+	focus = {
+		id = eld_overcome_the_vow
+		icon = GFX_goal_unknown
+		x = 21
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_trost_miracle  }
+		mutually_exclusive = { focus = eld_friedasdeath  } mutually_exclusive = { focus = eld_kennyscoup  }
+	}
+
+	#Maria's Memory
+	focus = {
+		id = eld_mariasmemory
+		icon = GFX_goal_unknown
+		x = 22
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_friedaspath  }
+	}
+
+	#Ackerman Question
+	focus = {
+		id = eld_ackerman_question
+		icon = GFX_goal_unknown
+		x = 21
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_mariasmemory  } prerequisite = { focus = eld_the_ghost  }
+	}
+
+	#The Ghost
+	focus = {
+		id = eld_the_ghost
+		icon = GFX_goal_unknown
+		x = 20
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_friedaspath  }
+	}
+
+	#Frieda's Path
+	focus = {
+		id = eld_friedaspath
+		icon = GFX_goal_unknown
+		x = 21
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = eld_kingspath1  } mutually_exclusive = { focus = eld_survey_corps_path  }
+	}
+
+	#Avenge Historia
+	focus = {
+		id = eld_avenge_historia
+		icon = GFX_goal_unknown
+		x = 21
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_ackerman_question  }
+	}
+
+	#Kenny's Coup
+	focus = {
+		id = eld_kennyscoup
+		icon = GFX_goal_unknown
+		x = 23
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_trost_miracle  }
+		mutually_exclusive = { focus = eld_friedasdeath  } mutually_exclusive = { focus = eld_overcome_the_vow  }
+	}
+
+	#Trost Miracle
+	focus = {
+		id = eld_trost_miracle
+		icon = GFX_goal_unknown
+		x = 21
+		y = 4
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_avenge_historia  }
+	}
+
+	#The Last Wall Expedition
+	focus = {
+		id = eld_the_last_wall_expedition
+		icon = GFX_goal_unknown
+		x = 16
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_erenshardening  } prerequisite = { focus = eld_armored_gamble  }
+	}
+
+	#Female Titan Gamble
+	focus = {
+		id = eld_female_titan_gamble
+		icon = GFX_goal_unknown
+		x = 14
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_trost_gamble  }
+	}
+
+	#Armored Gamble
+	focus = {
+		id = eld_armored_gamble
+		icon = GFX_goal_unknown
+		x = 17
+		y = 3
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_develop_titanology  } prerequisite = { focus = eld_ymirsrole  }
+	}
+
+	#Ymir's Role
+	focus = {
+		id = eld_ymirsrole
+		icon = GFX_goal_unknown
+		x = 16
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_hangesidea  } prerequisite = { focus = eld_trost_gamble  }
+	}
+
+	#Frieda's Death
+	focus = {
+		id = eld_friedasdeath
+		icon = GFX_goal_unknown
+		x = 19
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_trost_miracle  }
+		mutually_exclusive = { focus = eld_overcome_the_vow  } mutually_exclusive = { focus = eld_kennyscoup  }
+	}
+
+	#Frieda's Vision
+	focus = {
+		id = eld_friedasvision
+		icon = GFX_goal_unknown
+		x = 18
+		y = 8
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_the_basement  }
+		mutually_exclusive = { focus = eld_erensvision  } mutually_exclusive = { focus = eld_arminsvision  }
+		available = {
+			has_country_leader = {
+			    name = "Frieda Reiss"
+			}
+			
+			
+		}
+	}
+
+	#Special Underground Corps
+	focus = {
+		id = eld_special_underground_corps
+		icon = GFX_goal_unknown
+		x = 28
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_hire_kenny  }
+	}
+
+	#Investigate the Survey Corps
+	focus = {
+		id = eld_investigate_the_survey_corps
+		icon = GFX_goal_unknown
+		x = 26
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_invest_in_church  } prerequisite = { focus = eld_hire_kenny  }
+	}
+
+	#Royal Garrison
+	focus = {
+		id = eld_royal_garrison
+		icon = GFX_goal_unknown
+		x = 24
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_invest_in_church  }
+	}
+
+	#Rumbling
+	focus = {
+		id = eld_rumbling
+		icon = GFX_goal_unknown
+		x = 19
+		y = 12
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_erensvision  focus = eld_tyburspawn  focus = eld_arminsvision  focus = eld_friedasvision  }
+	}
+
+	#Boost Eldian Economy
+	focus = {
+		id = eld_boost_eldian_economy
+		icon = GFX_goal_unknown
+		x = 6
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#Revigorate The Underground City
+	focus = {
+		id = eld_revigorate_the_underground_city
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = eld_boost_eldian_economy  }
+	}
+
+	#Expand the Underground
+	focus = {
+		id = eld_expand_the_underground
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = eld_revigorate_the_underground_city  }
+	}
+
+	#Supplements Research
+	focus = {
+		id = eld_supplements_research
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = eld_revigorate_the_underground_city  }
+	}
+
+	#Expand Industrial Universities
+	focus = {
+		id = eld_expand_industrial_universities
+		icon = GFX_goal_unknown
+		x = 10
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = eld_expand_industrial_city  }
+	}
+
+	#Industrialize the Nation
+	focus = {
+		id = eld_industrialize_the_nation
+		icon = GFX_goal_unknown
+		x = 6
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = eld_boost_eldian_economy  }
+	}
+
+	#Transportation Efforts
+	focus = {
+		id = eld_transportation_efforts
+		icon = GFX_goal_unknown
+		x = 6
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = eld_industrialize_the_nation  }
+	}
+
+	#Fight the Noble's Land
+	focus = {
+		id = eld_fightthenoblesland
+		icon = GFX_goal_unknown
+		x = 8
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_boost_eldian_economy  }
+	}
+
+	#Farm's Incentive
+	focus = {
+		id = eld_farmsincentive
+		icon = GFX_goal_unknown
+		x = 8
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = eld_fightthenoblesland  }
+	}
+
+	#Focus on Military Equipment
+	focus = {
+		id = eld_focus_on_military_equipment
+		icon = GFX_goal_unknown
+		x = 10
+		y = 3
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = eld_industrialize_the_nation  }
+	}
+
+	#The New Queen
+	focus = {
+		id = eld_the_new_queen
+		icon = GFX_goal_unknown
+		x = 15
+		y = 9
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = eld_arminsvision  focus = eld_erensvision  }
+	}
+
+}
