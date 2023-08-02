@@ -2,4 +2,7 @@ walls_category = {
 	allowed = {
 		original_tag = ELD
 	}
+	priority = {
+	base = 25
+	}
 }

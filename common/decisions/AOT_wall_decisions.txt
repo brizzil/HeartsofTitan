@@ -26,6 +26,65 @@ walls_category = {
 				set_demilitarized_zone = yes
 			}
 		}
-    	
+    }
+
+
+    wall_rose_open = {
+    	available = {
+			NOT = { has_country_flag = ELD_rose_wall_open }
+		}
+		visible = {
+			NOT = { has_country_flag = ELD_rose_wall_open }
+		}
+		complete_effect = {
+			set_country_flag = ELD_rose_wall_open
+			922 = {
+				set_demilitarized_zone = no
+			}
+		}
+    }
+    wall_rose_close = {
+    	available = {
+			has_country_flag = ELD_rose_wall_open
+		}
+		visible = {
+			has_country_flag = ELD_rose_wall_open
+		}
+		complete_effect = {
+			clr_country_flag = ELD_rose_wall_open
+			922 = {
+				set_demilitarized_zone = yes
+			}
+		}
+    }
+
+
+    wall_sina_open = {
+    	available = {
+			NOT = { has_country_flag = ELD_sina_wall_open }
+		}
+		visible = {
+			NOT = { has_country_flag = ELD_sina_wall_open }
+		}
+		complete_effect = {
+			set_country_flag = ELD_sina_wall_open
+			923 = {
+				set_demilitarized_zone = no
+			}
+		}
+    }
+    wall_sina_close = {
+    	available = {
+			has_country_flag = ELD_sina_wall_open
+		}
+		visible = {
+			has_country_flag = ELD_sina_wall_open
+		}
+		complete_effect = {
+			clr_country_flag = ELD_sina_wall_open
+			923 = {
+				set_demilitarized_zone = yes
+			}
+		}
     }
 }

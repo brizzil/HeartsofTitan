@@ -1,0 +1,16 @@
+state={
+	id=922
+	name="STATE_922"
+	provinces={
+		13285 13286 13287 13288
+	}
+	history={
+		owner = ELD
+		set_demilitarized_zone = yes
+	
+	}
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
