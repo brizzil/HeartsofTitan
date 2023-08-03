@@ -10,6 +10,14 @@ state={
 		victory_points = {
 			5128 1 
 		}
+
+		buildings = {
+		    13258 = { bunker = 10 }
+		    13281 = { bunker = 10 }
+		    13282 = { bunker = 10 }
+		    13283 = { bunker = 10 }
+		    13284 = { bunker = 10 }
+		}
 	}
 	manpower=1
 	state_category = wasteland
